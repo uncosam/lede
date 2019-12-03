@@ -68,7 +68,7 @@ jobs:
           #
           # ========================固件定制部分========================
           # 
-
+          cat >> .config <<EOF
           CONFIG_MODULES=y
           CONFIG_HAVE_DOT_CONFIG=y
           CONFIG_TARGET_ipq40xx=y
@@ -882,7 +882,7 @@ jobs:
           CONFIG_PACKAGE_openssl-util=y
           CONFIG_PACKAGE_shellsync=y
           CONFIG_PACKAGE_ubi-utils=y
-          
+          EOF
           # 
           # ========================固件定制部分结束========================
           # 
