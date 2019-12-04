@@ -905,4 +905,4 @@ jobs:
         uses: actions/upload-artifact@master
         with:
           name: OpenWrt firmware
-          path: bin/targets/ipq40xx/generic/*.*
+          path: bin/targets
